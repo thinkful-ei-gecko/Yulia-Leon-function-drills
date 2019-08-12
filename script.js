@@ -1,6 +1,6 @@
 'use strict';
 
-function createGreeting() {
+function createGreeting(name, age) {
   return 'Hi, my name is Leon and I\'m 28 years old';
 }
 
