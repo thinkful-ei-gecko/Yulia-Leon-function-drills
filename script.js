@@ -13,5 +13,10 @@ function getYearOfBirth(age) {
   return yearOf;
 }
 
-const greeting1 = createGreeting('Joey',-26);
-console.log(greeting1);
+try {
+  const greeting1 = createGreeting('Joey',26);
+  console.log(greeting1);
+} 
+catch(error) { 
+  console.error(error); 
+}
